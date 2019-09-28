@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "4Ic-E3-2af"; */
+"4Ic-E3-2af.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "About:"; ObjectID = "RkQ-nv-WmW"; */
+"RkQ-nv-WmW.text" = "About:";
+
+/* Class = "UIButton"; normalTitle = "About Mindless Meditation"; ObjectID = "Tmw-oo-WSD"; */
+"Tmw-oo-WSD.normalTitle" = "About Mindless Meditation";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "e5h-Ot-TPb"; */
+"e5h-Ot-TPb.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Next Mindless Lesson"; ObjectID = "gi9-IV-KgX"; */
+"gi9-IV-KgX.normalTitle" = "Next Mindless Lesson";
+
+/* Class = "UIButton"; normalTitle = "Your path to mindlessness..."; ObjectID = "kmw-Sa-PC5"; */
+"kmw-Sa-PC5.normalTitle" = "Your path to mindlessness...";

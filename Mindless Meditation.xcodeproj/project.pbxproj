@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4101038721248B5C0086143C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4101038621248B5C0086143C /* AppDelegate.swift */; };
+		4101038921248B5C0086143C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4101038821248B5C0086143C /* ViewController.swift */; };
+		4101038C21248B5C0086143C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4101038A21248B5C0086143C /* Main.storyboard */; };
+		4101039121248B5D0086143C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4101038F21248B5D0086143C /* LaunchScreen.storyboard */; };
+		410103BA2124B67B0086143C /* mmlogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 410103B82124B4F80086143C /* mmlogo.jpg */; };
+		4174212A233F36EF00759F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41742129233F36EF00759F4F /* Assets.xcassets */; };
+		4174212D233FAAF100759F4F /* text in Resources */ = {isa = PBXBuildFile; fileRef = 4174212C233FAAF100759F4F /* text */; };
+		41742133233FADA800759F4F /* mindless.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41742132233FADA800759F4F /* mindless.txt */; };
+		41DD95CC2124CE9700524E4F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DD95CB2124CE9700524E4F /* SecondViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4101039821248B5D0086143C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4101037B21248B5C0086143C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4101038221248B5C0086143C;
+			remoteInfo = MindlessMed2;
+		};
+		410103A321248B5D0086143C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4101037B21248B5C0086143C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4101038221248B5C0086143C;
+			remoteInfo = MindlessMed2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4101038321248B5C0086143C /* Mindless Meditation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mindless Meditation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4101038621248B5C0086143C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4101038821248B5C0086143C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4101038B21248B5C0086143C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4101039021248B5D0086143C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4101039221248B5D0086143C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4101039721248B5D0086143C /* Mindless MeditationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mindless MeditationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		410103A221248B5D0086143C /* Mindless MeditationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mindless MeditationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		410103B82124B4F80086143C /* mmlogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mmlogo.jpg; sourceTree = "<group>"; };
+		413988502125255D005831F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		41742129233F36EF00759F4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Desktop/Assets.xcassets; sourceTree = "<group>"; };
+		4174212C233FAAF100759F4F /* text */ = {isa = PBXFileReference; lastKnownFileType = folder; path = text; sourceTree = "<group>"; };
+		41742132233FADA800759F4F /* mindless.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mindless.txt; sourceTree = "<group>"; };
+		41DD95CB2124CE9700524E4F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4101038021248B5C0086143C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4101039421248B5D0086143C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4101039F21248B5D0086143C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4101037A21248B5C0086143C = {
+			isa = PBXGroup;
+			children = (
+				41742132233FADA800759F4F /* mindless.txt */,
+				4101038521248B5C0086143C /* MindlessMed2 */,
+				4101038421248B5C0086143C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4101038421248B5C0086143C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4101038321248B5C0086143C /* Mindless Meditation.app */,
+				4101039721248B5D0086143C /* Mindless MeditationTests.xctest */,
+				410103A221248B5D0086143C /* Mindless MeditationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4101038521248B5C0086143C /* MindlessMed2 */ = {
+			isa = PBXGroup;
+			children = (
+				41742129233F36EF00759F4F /* Assets.xcassets */,
+				4174212C233FAAF100759F4F /* text */,
+				41DD95CB2124CE9700524E4F /* SecondViewController.swift */,
+				4101038621248B5C0086143C /* AppDelegate.swift */,
+				4101038821248B5C0086143C /* ViewController.swift */,
+				4101038A21248B5C0086143C /* Main.storyboard */,
+				410103B82124B4F80086143C /* mmlogo.jpg */,
+				4101038F21248B5D0086143C /* LaunchScreen.storyboard */,
+				4101039221248B5D0086143C /* Info.plist */,
+			);
+			path = MindlessMed2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4101038221248B5C0086143C /* Mindless Meditation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410103AB21248B5D0086143C /* Build configuration list for PBXNativeTarget "Mindless Meditation" */;
+			buildPhases = (
+				4101037F21248B5C0086143C /* Sources */,
+				4101038021248B5C0086143C /* Frameworks */,
+				4101038121248B5C0086143C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mindless Meditation";
+			productName = MindlessMed2;
+			productReference = 4101038321248B5C0086143C /* Mindless Meditation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4101039621248B5D0086143C /* Mindless MeditationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410103AE21248B5D0086143C /* Build configuration list for PBXNativeTarget "Mindless MeditationTests" */;
+			buildPhases = (
+				4101039321248B5D0086143C /* Sources */,
+				4101039421248B5D0086143C /* Frameworks */,
+				4101039521248B5D0086143C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4101039921248B5D0086143C /* PBXTargetDependency */,
+			);
+			name = "Mindless MeditationTests";
+			productName = MindlessMEd4Tests;
+			productReference = 4101039721248B5D0086143C /* Mindless MeditationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		410103A121248B5D0086143C /* Mindless MeditationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410103B121248B5D0086143C /* Build configuration list for PBXNativeTarget "Mindless MeditationUITests" */;
+			buildPhases = (
+				4101039E21248B5D0086143C /* Sources */,
+				4101039F21248B5D0086143C /* Frameworks */,
+				410103A021248B5D0086143C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				410103A421248B5D0086143C /* PBXTargetDependency */,
+			);
+			name = "Mindless MeditationUITests";
+			productName = MindlessMEd4UITests;
+			productReference = 410103A221248B5D0086143C /* Mindless MeditationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4101037B21248B5C0086143C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Tommy Juhl";
+				TargetAttributes = {
+					4101038221248B5C0086143C = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					4101039621248B5D0086143C = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 4101038221248B5C0086143C;
+					};
+					410103A121248B5D0086143C = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 4101038221248B5C0086143C;
+					};
+				};
+			};
+			buildConfigurationList = 4101037E21248B5C0086143C /* Build configuration list for PBXProject "Mindless Meditation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4101037A21248B5C0086143C;
+			productRefGroup = 4101038421248B5C0086143C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4101038221248B5C0086143C /* Mindless Meditation */,
+				4101039621248B5D0086143C /* Mindless MeditationTests */,
+				410103A121248B5D0086143C /* Mindless MeditationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4101038121248B5C0086143C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410103BA2124B67B0086143C /* mmlogo.jpg in Resources */,
+				4174212D233FAAF100759F4F /* text in Resources */,
+				4101039121248B5D0086143C /* LaunchScreen.storyboard in Resources */,
+				41742133233FADA800759F4F /* mindless.txt in Resources */,
+				4101038C21248B5C0086143C /* Main.storyboard in Resources */,
+				4174212A233F36EF00759F4F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4101039521248B5D0086143C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410103A021248B5D0086143C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4101037F21248B5C0086143C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41DD95CC2124CE9700524E4F /* SecondViewController.swift in Sources */,
+				4101038921248B5C0086143C /* ViewController.swift in Sources */,
+				4101038721248B5C0086143C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4101039321248B5D0086143C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4101039E21248B5D0086143C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4101039921248B5D0086143C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4101038221248B5C0086143C /* Mindless Meditation */;
+			targetProxy = 4101039821248B5D0086143C /* PBXContainerItemProxy */;
+		};
+		410103A421248B5D0086143C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4101038221248B5C0086143C /* Mindless Meditation */;
+			targetProxy = 410103A321248B5D0086143C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4101038A21248B5C0086143C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4101038B21248B5C0086143C /* Base */,
+				413988502125255D005831F1 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4101038F21248B5D0086143C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4101039021248B5D0086143C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		410103A921248B5D0086143C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		410103AA21248B5D0086143C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		410103AC21248B5D0086143C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZSHX8FR4Y;
+				INFOPLIST_FILE = MindlessMed2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.tommycode.mindlessmed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		410103AD21248B5D0086143C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZSHX8FR4Y;
+				INFOPLIST_FILE = MindlessMed2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.tommycode.mindlessmed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		410103AF21248B5D0086143C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MindlessMEd4Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.tommycode.MindlessMEd4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mindless Meditation.app/Mindless Meditation";
+			};
+			name = Debug;
+		};
+		410103B021248B5D0086143C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MindlessMEd4Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.tommycode.MindlessMEd4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mindless Meditation.app/Mindless Meditation";
+			};
+			name = Release;
+		};
+		410103B221248B5D0086143C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZSHX8FR4Y;
+				INFOPLIST_FILE = MindlessMEd4UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.tommycode.MindlessMEd4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindlessMed2;
+			};
+			name = Debug;
+		};
+		410103B321248B5D0086143C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZSHX8FR4Y;
+				INFOPLIST_FILE = MindlessMEd4UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.tommycode.MindlessMEd4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindlessMed2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4101037E21248B5C0086143C /* Build configuration list for PBXProject "Mindless Meditation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410103A921248B5D0086143C /* Debug */,
+				410103AA21248B5D0086143C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410103AB21248B5D0086143C /* Build configuration list for PBXNativeTarget "Mindless Meditation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410103AC21248B5D0086143C /* Debug */,
+				410103AD21248B5D0086143C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410103AE21248B5D0086143C /* Build configuration list for PBXNativeTarget "Mindless MeditationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410103AF21248B5D0086143C /* Debug */,
+				410103B021248B5D0086143C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410103B121248B5D0086143C /* Build configuration list for PBXNativeTarget "Mindless MeditationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410103B221248B5D0086143C /* Debug */,
+				410103B321248B5D0086143C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4101037B21248B5C0086143C /* Project object */;
+}
