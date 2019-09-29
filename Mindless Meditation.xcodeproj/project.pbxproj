@@ -15,6 +15,7 @@
 		4174212A233F36EF00759F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41742129233F36EF00759F4F /* Assets.xcassets */; };
 		4174212D233FAAF100759F4F /* text in Resources */ = {isa = PBXBuildFile; fileRef = 4174212C233FAAF100759F4F /* text */; };
 		41DD95CC2124CE9700524E4F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DD95CB2124CE9700524E4F /* SecondViewController.swift */; };
+		41ECBFC9234034E1004D67E6 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 41ECBFC8234034E1004D67E6 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		41742129233F36EF00759F4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Desktop/Assets.xcassets; sourceTree = "<group>"; };
 		4174212C233FAAF100759F4F /* text */ = {isa = PBXFileReference; lastKnownFileType = folder; path = text; sourceTree = "<group>"; };
 		41DD95CB2124CE9700524E4F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		41ECBFC8234034E1004D67E6 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				4101038621248B5C0086143C /* AppDelegate.swift */,
 				4101038821248B5C0086143C /* ViewController.swift */,
 				4101038A21248B5C0086143C /* Main.storyboard */,
+				41ECBFC8234034E1004D67E6 /* logo.png */,
 				410103B82124B4F80086143C /* mmlogo.jpg */,
 				4101038F21248B5D0086143C /* LaunchScreen.storyboard */,
 				4101039221248B5D0086143C /* Info.plist */,
@@ -215,6 +218,7 @@
 			files = (
 				410103BA2124B67B0086143C /* mmlogo.jpg in Resources */,
 				4174212D233FAAF100759F4F /* text in Resources */,
+				41ECBFC9234034E1004D67E6 /* logo.png in Resources */,
 				4101039121248B5D0086143C /* LaunchScreen.storyboard in Resources */,
 				4101038C21248B5C0086143C /* Main.storyboard in Resources */,
 				4174212A233F36EF00759F4F /* Assets.xcassets in Resources */,

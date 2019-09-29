@@ -13,18 +13,18 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Mindless_Meditation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kmw-Sa-PC5">
-                                <rect key="frame" x="97.5" y="181.5" width="219" height="33"/>
+                                <rect key="frame" x="97.5" y="154.5" width="219" height="33"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="18"/>
                                 <state key="normal" title="Your path to mindlessness...">
                                     <color key="titleColor" red="0.50196087359999997" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gi9-IV-KgX">
-                                <rect key="frame" x="64.5" y="216" width="285" height="44"/>
+                                <rect key="frame" x="64.5" y="189" width="285" height="44"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="26"/>
                                 <state key="normal" title="Next Mindless Lesson">
                                     <color key="titleColor" red="0.50196087359999997" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -34,14 +34,17 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tmw-oo-WSD">
-                                <rect key="frame" x="115.5" y="703" width="183" height="30"/>
+                                <rect key="frame" x="115.5" y="676" width="183" height="30"/>
                                 <color key="tintColor" red="0.47843140360000003" green="0.47843140360000003" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="About Mindless Meditation">
                                     <color key="titleColor" red="0.50196087359999997" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="VLN-Dt-BNE" kind="show" id="4vF-id-F9e"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NUv-UM-OCi">
-                                <rect key="frame" x="19" y="181.5" width="375" height="500"/>
+                                <rect key="frame" x="19" y="154.5" width="375" height="500"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="500" id="LNd-0v-CBh"/>
                                 </constraints>
@@ -72,6 +75,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="lJb-an-oZx"/>
                     <connections>
                         <outlet property="text" destination="NUv-UM-OCi" id="QdQ-Ra-Rsr"/>
                     </connections>
@@ -80,6 +84,71 @@
             </objects>
             <point key="canvasLocation" x="133.33333333333334" y="32.608695652173914"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="E5e-8f-TNU">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eKt-WO-WNB" sceneMemberID="firstResponder"/>
+                <viewController id="VLN-Dt-BNE" customClass="ViewController" customModule="Mindless_Meditation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OF3-YC-mxH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eqd-zs-QwP">
+                                <rect key="frame" x="174" y="669" width="66" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="nsR-JO-u1G"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="26"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.50196087359999997" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Nap-Zd-BZp"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="EQO-Dk-ltC">
+                                <rect key="frame" x="139" y="120" width="136" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="7x8-QN-Zuq"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dLs-zA-KQl">
+                                <rect key="frame" x="72" y="256" width="270" height="405"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Mindless Meditation by Thomas Juhl started as a joke, but grew into an app for you to enjoy!">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="NSColor" red="0.5019608736038208" green="0.50196081399917603" blue="0.50196081399917603" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="25" name="ArialMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dLs-zA-KQl" firstAttribute="centerX" secondItem="Eqd-zs-QwP" secondAttribute="centerX" id="GrL-mt-Cpk"/>
+                            <constraint firstItem="EQO-Dk-ltC" firstAttribute="top" secondItem="fuu-jI-k3S" secondAttribute="top" constant="120" id="Smf-aC-dtD"/>
+                            <constraint firstItem="dLs-zA-KQl" firstAttribute="top" secondItem="EQO-Dk-ltC" secondAttribute="bottom" constant="8" id="VTJ-3d-1Zu"/>
+                            <constraint firstItem="fuu-jI-k3S" firstAttribute="bottom" secondItem="Eqd-zs-QwP" secondAttribute="bottom" constant="95" id="Vb7-az-Lru"/>
+                            <constraint firstItem="Eqd-zs-QwP" firstAttribute="top" secondItem="dLs-zA-KQl" secondAttribute="bottom" constant="8" id="dxr-bQ-4H1"/>
+                            <constraint firstItem="EQO-Dk-ltC" firstAttribute="centerX" secondItem="dLs-zA-KQl" secondAttribute="centerX" id="juo-1e-kbk"/>
+                            <constraint firstItem="EQO-Dk-ltC" firstAttribute="centerX" secondItem="OF3-YC-mxH" secondAttribute="centerX" id="n4V-da-vXu"/>
+                            <constraint firstItem="EQO-Dk-ltC" firstAttribute="leading" secondItem="fuu-jI-k3S" secondAttribute="leading" constant="139" id="ox7-Wf-cFJ"/>
+                            <constraint firstItem="dLs-zA-KQl" firstAttribute="leading" secondItem="fuu-jI-k3S" secondAttribute="leading" constant="72" id="srv-my-Cme"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fuu-jI-k3S"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ehq-Qt-h4b"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="911.59420289855075" y="31.473214285714285"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="logo.png" width="512" height="512"/>
+    </resources>
     <color key="tintColor" red="0.71764713525772095" green="0.71764713525772095" blue="0.71764713525772095" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>
