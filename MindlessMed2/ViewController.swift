@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         if let textName = Bundle.main.path(forResource: textName, ofType: "txt", inDirectory: "text") {
                 do {
                     let contents = try String(contentsOfFile: textName)
-                    let quoteArray : [String] = contents.components(separatedBy: "@ ")
+                    let quoteArray : [String] = contents.components(separatedBy: "\n")
                     print(quoteArray)
                     let randomItem = Int(arc4random() % UInt32(quoteArray.count))
                     text.text = "\(quoteArray[randomItem])"

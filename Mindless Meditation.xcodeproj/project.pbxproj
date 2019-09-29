@@ -14,7 +14,6 @@
 		410103BA2124B67B0086143C /* mmlogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 410103B82124B4F80086143C /* mmlogo.jpg */; };
 		4174212A233F36EF00759F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41742129233F36EF00759F4F /* Assets.xcassets */; };
 		4174212D233FAAF100759F4F /* text in Resources */ = {isa = PBXBuildFile; fileRef = 4174212C233FAAF100759F4F /* text */; };
-		41742133233FADA800759F4F /* mindless.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41742132233FADA800759F4F /* mindless.txt */; };
 		41DD95CC2124CE9700524E4F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DD95CB2124CE9700524E4F /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +47,6 @@
 		413988502125255D005831F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		41742129233F36EF00759F4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Desktop/Assets.xcassets; sourceTree = "<group>"; };
 		4174212C233FAAF100759F4F /* text */ = {isa = PBXFileReference; lastKnownFileType = folder; path = text; sourceTree = "<group>"; };
-		41742132233FADA800759F4F /* mindless.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mindless.txt; sourceTree = "<group>"; };
 		41DD95CB2124CE9700524E4F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,7 +78,6 @@
 		4101037A21248B5C0086143C = {
 			isa = PBXGroup;
 			children = (
-				41742132233FADA800759F4F /* mindless.txt */,
 				4101038521248B5C0086143C /* MindlessMed2 */,
 				4101038421248B5C0086143C /* Products */,
 			);
@@ -219,7 +216,6 @@
 				410103BA2124B67B0086143C /* mmlogo.jpg in Resources */,
 				4174212D233FAAF100759F4F /* text in Resources */,
 				4101039121248B5D0086143C /* LaunchScreen.storyboard in Resources */,
-				41742133233FADA800759F4F /* mindless.txt in Resources */,
 				4101038C21248B5C0086143C /* Main.storyboard in Resources */,
 				4174212A233F36EF00759F4F /* Assets.xcassets in Resources */,
 			);
