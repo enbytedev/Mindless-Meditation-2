@@ -17,26 +17,45 @@ class ViewController: UIViewController {
     @IBOutlet weak var resetButtonOutlet: UIButton!
     
     var medTimer = Timer()
-    var medTime: Int = 0
-    
-    func runThis() {
-        medTime += 1
-        labelOutlet.text = String(medTime)
-    }
+    var (hours, minutes, seconds, partial) = (0, 0, 0, 0)
     
     @IBAction func startButtonPressed(_ sender: UIButton) {
-        medTimer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: {_ in self.runThis()})
+        medTimer = Timer.scheduledTimer(withTimeInterval: 0.01, repeats: true, block: {_ in self.timerMan()})
         startButtonOutlet.isEnabled = false
     }
-    @IBAction func pauseButtonPressed(_ sender: UIButton) {
+
+    /*I hope nobody looks at this code. The hours don't work so I replaced the partials with seconds. The pause button doesn't work so I removed it for now.
+     
+     I hope to come back to this soon!*/
+    
+    @IBAction func resetButtonPressed(_ sender: UIButton) {
         medTimer.invalidate()
         startButtonOutlet.isEnabled = true
+        
     }
-    @IBAction func resetButtonPressed(_ sender: UIButton) {
-        medTime = 0
-        labelOutlet.text = String(medTime)
-        startButtonOutlet.isEnabled = true
+    
+    func timerMan() {
+        
+        partial += 1
+        if partial < 99 {
+            
+            seconds += 1
+            partial = 0
+        }
+        if seconds == 60 {
+        minutes += 1
+        seconds = 0
+        }
+        
+        if minutes == 60 {
+            hours += 1
+            minutes = 0
+        }
+        
+        labelOutlet.text = "\(hours):\(minutes):\(seconds)"
+        
     }
+    
     
     
     @IBOutlet weak var text: UILabel!
