@@ -12,7 +12,8 @@
 		4101038C21248B5C0086143C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4101038A21248B5C0086143C /* Main.storyboard */; };
 		4101039121248B5D0086143C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4101038F21248B5D0086143C /* LaunchScreen.storyboard */; };
 		410103BA2124B67B0086143C /* mmlogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 410103B82124B4F80086143C /* mmlogo.jpg */; };
-		4174212A233F36EF00759F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41742129233F36EF00759F4F /* Assets.xcassets */; };
+		411D243D23DB85F700A26176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 411D243C23DB85F600A26176 /* Assets.xcassets */; };
+		411D243F23DB860400A26176 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 411D243E23DB860400A26176 /* AppIcon.appiconset */; };
 		4174212D233FAAF100759F4F /* text in Resources */ = {isa = PBXBuildFile; fileRef = 4174212C233FAAF100759F4F /* text */; };
 		41DD95CC2124CE9700524E4F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DD95CB2124CE9700524E4F /* SecondViewController.swift */; };
 		41ECBFC9234034E1004D67E6 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 41ECBFC8234034E1004D67E6 /* logo.png */; };
@@ -45,8 +46,9 @@
 		4101039721248B5D0086143C /* Mindless MeditationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mindless MeditationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		410103A221248B5D0086143C /* Mindless MeditationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mindless MeditationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		410103B82124B4F80086143C /* mmlogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mmlogo.jpg; sourceTree = "<group>"; };
+		411D243C23DB85F600A26176 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Downloads/Mindless-Meditation-2-master/MindlessMed2/Assets.xcassets"; sourceTree = "<group>"; };
+		411D243E23DB860400A26176 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = "../../Downloads/Mindless-Meditation-2-master/MindlessMed2/AppIcon.appiconset"; sourceTree = "<group>"; };
 		413988502125255D005831F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		41742129233F36EF00759F4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Desktop/Assets.xcassets; sourceTree = "<group>"; };
 		4174212C233FAAF100759F4F /* text */ = {isa = PBXFileReference; lastKnownFileType = folder; path = text; sourceTree = "<group>"; };
 		41DD95CB2124CE9700524E4F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		41ECBFC8234034E1004D67E6 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
@@ -98,7 +100,8 @@
 		4101038521248B5C0086143C /* MindlessMed2 */ = {
 			isa = PBXGroup;
 			children = (
-				41742129233F36EF00759F4F /* Assets.xcassets */,
+				411D243C23DB85F600A26176 /* Assets.xcassets */,
+				411D243E23DB860400A26176 /* AppIcon.appiconset */,
 				4174212C233FAAF100759F4F /* text */,
 				41DD95CB2124CE9700524E4F /* SecondViewController.swift */,
 				4101038621248B5C0086143C /* AppDelegate.swift */,
@@ -220,8 +223,9 @@
 				4174212D233FAAF100759F4F /* text in Resources */,
 				41ECBFC9234034E1004D67E6 /* logo.png in Resources */,
 				4101039121248B5D0086143C /* LaunchScreen.storyboard in Resources */,
+				411D243F23DB860400A26176 /* AppIcon.appiconset in Resources */,
+				411D243D23DB85F700A26176 /* Assets.xcassets in Resources */,
 				4101038C21248B5C0086143C /* Main.storyboard in Resources */,
-				4174212A233F36EF00759F4F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +425,6 @@
 		410103AC21248B5D0086143C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZSHX8FR4Y;
 				INFOPLIST_FILE = MindlessMed2/Info.plist;
@@ -440,7 +443,6 @@
 		410103AD21248B5D0086143C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZSHX8FR4Y;
 				INFOPLIST_FILE = MindlessMed2/Info.plist;

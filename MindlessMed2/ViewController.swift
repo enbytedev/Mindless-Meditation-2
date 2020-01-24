@@ -10,6 +10,35 @@ import UIKit
 import Foundation
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var labelOutlet: UILabel!
+    @IBOutlet weak var startButtonOutlet: UIButton!
+    @IBOutlet weak var pauseButtonOutlet: UIButton!
+    @IBOutlet weak var resetButtonOutlet: UIButton!
+    
+    var medTimer = Timer()
+    var medTime: Int = 0
+    
+    func runThis() {
+        medTime += 1
+        labelOutlet.text = String(medTime)
+    }
+    
+    @IBAction func startButtonPressed(_ sender: UIButton) {
+        medTimer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: {_ in self.runThis()})
+        startButtonOutlet.isEnabled = false
+    }
+    @IBAction func pauseButtonPressed(_ sender: UIButton) {
+        medTimer.invalidate()
+        startButtonOutlet.isEnabled = true
+    }
+    @IBAction func resetButtonPressed(_ sender: UIButton) {
+        medTime = 0
+        labelOutlet.text = String(medTime)
+        startButtonOutlet.isEnabled = true
+    }
+    
+    
     @IBOutlet weak var text: UILabel!
     @IBAction func tapIt(_ sender: Any) {
     
