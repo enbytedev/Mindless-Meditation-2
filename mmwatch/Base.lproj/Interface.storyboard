@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15705" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="H5w-dh-jNF">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="0Hu-PY-VLG">
+            <objects>
+                <controller id="H5w-dh-jNF">
+                    <items>
+                        <label width="136" height="108" alignment="left" text="I dare you..." numberOfLines="4" id="VBr-zZ-cLU"/>
+                        <button width="1" alignment="left" title="Next Lesson" id="rpv-vb-1Qc"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="12" y="-87"/>
+        </scene>
+    </scenes>
+</document>

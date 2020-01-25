@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15705" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="mmwatch" customModuleProvider="target">
+                    <items>
+                        <label width="136" height="111" alignment="left" text="I dare you... " numberOfLines="5" id="9ZA-zr-CEp"/>
+                        <button width="1" alignment="left" title="Next Lesson" id="Tck-jh-00l">
+                            <connections>
+                                <action selector="tapIt" destination="AgC-eL-Hgc" id="YTo-cF-sDr"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="tapIt" destination="Tck-jh-00l" id="aWq-oZ-Chl"/>
+                        <outlet property="text" destination="9ZA-zr-CEp" id="gtd-rj-UUp"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="136" y="32"/>
+        </scene>
+    </scenes>
+</document>
