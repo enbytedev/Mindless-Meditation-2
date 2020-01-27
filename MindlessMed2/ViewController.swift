@@ -78,4 +78,44 @@ class ViewController: UIViewController {
                 // txt not found!
         }
     }
+    @IBOutlet weak var textSM: UILabel!
+    @IBAction func tapItSM(_ sender: Any) {
+    
+        let textName = "mindless"
+        if let textName = Bundle.main.path(forResource: textName, ofType: "txt", inDirectory: "text") {
+                do {
+                    let contents = try String(contentsOfFile: textName)
+                    let quoteArray : [String] = contents.components(separatedBy: "\n")
+                    print(quoteArray)
+                    let randomItem = Int(arc4random() % UInt32(quoteArray.count))
+                    textSM.text = "\(quoteArray[randomItem])"
+                    textSM.lineBreakMode = NSLineBreakMode.byWordWrapping
+                    textSM.numberOfLines = 6
+                } catch {
+                    // contents could not be loaded
+                }
+            } else {
+                // txt not found!
+        }
+    }
+    @IBOutlet weak var textMO: UILabel!
+    @IBAction func tapItMO(_ sender: Any) {
+        let textName = "mostoffensive"
+        if let textName = Bundle.main.path(forResource: textName, ofType: "txt", inDirectory: "text") {
+                do {
+                    let contents = try String(contentsOfFile: textName)
+                    let quoteArray : [String] = contents.components(separatedBy: "\n")
+                    print(quoteArray)
+                    let randomItem = Int(arc4random() % UInt32(quoteArray.count))
+                    textMO.text = "\(quoteArray[randomItem])"
+                    textMO.lineBreakMode = NSLineBreakMode.byWordWrapping
+                    textMO.numberOfLines = 6
+                } catch {
+                    // contents could not be loaded
+                }
+            } else {
+                // txt not found!
+        }
+    }
+    
 }

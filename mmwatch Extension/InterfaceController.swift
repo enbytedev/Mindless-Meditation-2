@@ -23,7 +23,6 @@ class InterfaceController: WKInterfaceController {
         firstArray += ["Just fool them into tricking them!"]
         firstArray += ["Go to time-out, you did a bad job. Welcome to the real world."]
         firstArray += ["Did you really think I could help you get over it? No, screw you."]
-        firstArray += ["Remember, the only time you should think about frowning is when the situation calls for it."]
         firstArray += ["It is... what is is."]
         firstArray += ["What did you say you were high on?"]
         firstArray += ["Will anything ever fill that hole in your life?"]
