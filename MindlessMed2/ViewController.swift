@@ -77,6 +77,7 @@ class ViewController: UIViewController {
             } else {
                 // txt not found!
         }
+        
     }
     @IBOutlet weak var textSM: UILabel!
     @IBAction func tapItSM(_ sender: Any) {
@@ -117,5 +118,47 @@ class ViewController: UIViewController {
                 // txt not found!
         }
     }
+    
+    @IBOutlet weak var textLO: UILabel!
+    @IBAction func tapItLO(_ sender: Any) {
+        let textName = "leastoffensive"
+             if let textName = Bundle.main.path(forResource: textName, ofType: "txt", inDirectory: "text") {
+                     do {
+                         let contents = try String(contentsOfFile: textName)
+                         let quoteArray : [String] = contents.components(separatedBy: "\n")
+                         print(quoteArray)
+                         let randomItem = Int(arc4random() % UInt32(quoteArray.count))
+                         textLO.text = "\(quoteArray[randomItem])"
+                         textLO.lineBreakMode = NSLineBreakMode.byWordWrapping
+                         textLO.numberOfLines = 6
+                     } catch {
+                         // contents could not be loaded
+                     }
+                 } else {
+                     // txt not found!
+             }
+    }
+    @IBOutlet weak var textConvo: UILabel!
+    @IBAction func tapItConvo(_ sender: Any) {
+        let textName = "convo"
+             if let textName = Bundle.main.path(forResource: textName, ofType: "txt", inDirectory: "text") {
+                     do {
+                         let contents = try String(contentsOfFile: textName)
+                         let quoteArray : [String] = contents.components(separatedBy: "\n")
+                         print(quoteArray)
+                         let randomItem = Int(arc4random() % UInt32(quoteArray.count))
+                         textConvo.text = "\(quoteArray[randomItem])"
+                         textConvo.lineBreakMode = NSLineBreakMode.byWordWrapping
+                         textConvo.numberOfLines = 6
+                     } catch {
+                         // contents could not be loaded
+                     }
+                 } else {
+                     // txt not found!
+             }
+    }
+    
+    
+    
     
 }

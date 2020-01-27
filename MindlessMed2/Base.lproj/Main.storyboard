@@ -339,6 +339,9 @@
                                 <state key="normal" title="Convo Worthy">
                                     <color key="titleColor" red="0.50196087359999997" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="g6X-xc-BLK" kind="show" id="fH0-Kf-vCZ"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="AOi-dM-IZQ">
                                 <rect key="frame" x="139" y="120" width="136" height="128"/>
@@ -369,6 +372,9 @@
                                 <state key="normal" title="Least Offensive">
                                     <color key="titleColor" red="0.50196087359999997" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="vTh-KN-N1L" kind="show" id="jqZ-8X-K21"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -403,7 +409,6 @@
         <!--View Controller-->
         <scene sceneID="zIv-bI-CLa">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hho-9P-p1f" sceneMemberID="firstResponder"/>
                 <viewController id="rtf-PH-Dvd" customClass="ViewController" customModule="Mindless_Meditation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qa5-pX-4n4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -494,13 +499,13 @@
                         <outlet property="textMO" destination="dOX-3i-xrk" id="h5J-vr-VBc"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hho-9P-p1f" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1766.6666666666667" y="-757.36607142857144"/>
+            <point key="canvasLocation" x="1761" y="-666"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kY1-6T-1bU">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HDb-jF-pIG" sceneMemberID="firstResponder"/>
                 <viewController id="jbn-dB-QAL" customClass="ViewController" customModule="Mindless_Meditation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="poj-ZE-uOr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -591,34 +596,37 @@
                         <outlet property="textSM" destination="C4J-6y-sLi" id="XeS-oU-2uS"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HDb-jF-pIG" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="919" y="-1207"/>
+            <point key="canvasLocation" x="-1267" y="-1142"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Wzc-bT-XLB">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9v4-OZ-rIP" sceneMemberID="firstResponder"/>
                 <viewController id="g6X-xc-BLK" customClass="ViewController" customModule="Mindless_Meditation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EP4-cT-3Ib">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vv6-cf-SHa">
-                                <rect key="frame" x="97.666666666666686" y="181.66666666666666" width="219" height="33"/>
+                                <rect key="frame" x="151.66666666666666" y="154.66666666666666" width="110.99999999999997" height="32.666666666666657"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="18"/>
-                                <state key="normal" title="Your path to mindlessness...">
+                                <state key="normal" title="Convo Worthy">
                                     <color key="titleColor" red="0.50196087359999997" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="okS-bs-7LI">
-                                <rect key="frame" x="64.666666666666686" y="216" width="285" height="44"/>
+                                <rect key="frame" x="64.666666666666686" y="189" width="285" height="44"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="26"/>
                                 <state key="normal" title="Next Mindless Lesson">
                                     <color key="titleColor" red="0.50196087359999997" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="tapItConvo:" destination="g6X-xc-BLK" eventType="touchUpInside" id="8gC-EB-1hL"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iqp-Af-Grc">
-                                <rect key="frame" x="20" y="268" width="374" height="448"/>
+                                <rect key="frame" x="20" y="241.33333333333337" width="374" height="448"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="448" id="QNl-F7-V6H"/>
                                 </constraints>
@@ -634,7 +642,7 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jpb-hn-49A">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jpb-hn-49A">
                                 <rect key="frame" x="174" y="44" width="66" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="OPo-wD-3wS"/>
@@ -644,10 +652,10 @@
                                     <color key="titleColor" red="0.50196087359999997" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <segue destination="SLJ-Z1-LDT" kind="show" id="VUM-p7-2Um"/>
+                                    <segue destination="SLJ-Z1-LDT" kind="show" id="mRj-sh-2Ue"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6m3-gH-EON">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6m3-gH-EON">
                                 <rect key="frame" x="169" y="96" width="77" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="JeL-k6-VV4"/>
@@ -657,12 +665,19 @@
                                     <color key="titleColor" red="0.50196087359999997" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="cwm-xp-2Za"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="jqh-sh-vIM"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="rD7-Nk-2qt" firstAttribute="trailing" secondItem="6m3-gH-EON" secondAttribute="trailing" constant="168" id="7b9-KJ-T4R"/>
+                            <constraint firstItem="rD7-Nk-2qt" firstAttribute="trailing" secondItem="Jpb-hn-49A" secondAttribute="trailing" constant="174" id="D9z-wC-2sv"/>
+                            <constraint firstItem="6m3-gH-EON" firstAttribute="top" secondItem="Jpb-hn-49A" secondAttribute="bottom" constant="8" id="H6U-Qr-taO"/>
+                            <constraint firstItem="Jpb-hn-49A" firstAttribute="top" secondItem="rD7-Nk-2qt" secondAttribute="top" constant="44" id="LdF-H2-RhH"/>
+                            <constraint firstItem="Vv6-cf-SHa" firstAttribute="top" secondItem="6m3-gH-EON" secondAttribute="bottom" constant="14.666666666666657" id="M8K-3M-2uC"/>
+                            <constraint firstItem="6m3-gH-EON" firstAttribute="leading" secondItem="rD7-Nk-2qt" secondAttribute="leading" constant="169" id="PO4-i3-dWm"/>
+                            <constraint firstItem="Jpb-hn-49A" firstAttribute="leading" secondItem="rD7-Nk-2qt" secondAttribute="leading" constant="174" id="Pra-HW-mUK"/>
                             <constraint firstItem="Iqp-Af-Grc" firstAttribute="leading" secondItem="EP4-cT-3Ib" secondAttribute="leading" constant="20" id="XHR-4f-Ce7"/>
                             <constraint firstItem="rD7-Nk-2qt" firstAttribute="trailing" secondItem="Iqp-Af-Grc" secondAttribute="trailing" constant="20" id="d3O-Nc-g3s"/>
                             <constraint firstItem="Iqp-Af-Grc" firstAttribute="top" secondItem="Vv6-cf-SHa" secondAttribute="top" constant="86.5" id="dC4-IT-VMd"/>
@@ -674,35 +689,41 @@
                         <viewLayoutGuide key="safeArea" id="rD7-Nk-2qt"/>
                     </view>
                     <navigationItem key="navigationItem" id="BJG-GP-U7S"/>
+                    <connections>
+                        <outlet property="textConvo" destination="Iqp-Af-Grc" id="9aQ-Ey-1iY"/>
+                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9v4-OZ-rIP" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2177" y="-1381"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="syk-Db-kaF">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yRT-ef-d7t" sceneMemberID="firstResponder"/>
                 <viewController id="vTh-KN-N1L" customClass="ViewController" customModule="Mindless_Meditation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WDm-AB-fQT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2B-9R-6C4">
-                                <rect key="frame" x="97.666666666666686" y="181.66666666666666" width="219" height="33"/>
+                                <rect key="frame" x="147.66666666666666" y="154.66666666666666" width="118.99999999999997" height="32.666666666666657"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="18"/>
-                                <state key="normal" title="Your path to mindlessness...">
+                                <state key="normal" title="Least Offensive">
                                     <color key="titleColor" red="0.50196087359999997" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gmf-ZL-OBS">
-                                <rect key="frame" x="64.666666666666686" y="216" width="285" height="44"/>
+                                <rect key="frame" x="64.666666666666686" y="189" width="285" height="44"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="26"/>
                                 <state key="normal" title="Next Mindless Lesson">
                                     <color key="titleColor" red="0.50196087359999997" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="tapItLO:" destination="vTh-KN-N1L" eventType="touchUpInside" id="CF7-VD-1fb"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NNj-B3-hpW">
-                                <rect key="frame" x="20" y="268" width="374" height="448"/>
+                                <rect key="frame" x="20" y="241.33333333333337" width="374" height="448"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="448" id="6M0-ux-KZw"/>
                                 </constraints>
@@ -718,7 +739,7 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3k-ai-2bE">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3k-ai-2bE">
                                 <rect key="frame" x="174" y="44" width="66" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="JUn-lA-vzY"/>
@@ -731,7 +752,7 @@
                                     <segue destination="SLJ-Z1-LDT" kind="show" id="Hcm-FP-C2D"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHE-ik-B5H">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHE-ik-B5H">
                                 <rect key="frame" x="169" y="96" width="77" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="eDP-No-WkG"/>
@@ -747,18 +768,29 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="MHE-ik-B5H" firstAttribute="leading" secondItem="fOt-2t-qbI" secondAttribute="leading" constant="169" id="5xo-db-SjW"/>
+                            <constraint firstItem="f3k-ai-2bE" firstAttribute="top" secondItem="fOt-2t-qbI" secondAttribute="top" constant="44" id="8dD-35-bPa"/>
                             <constraint firstItem="gmf-ZL-OBS" firstAttribute="centerX" secondItem="WDm-AB-fQT" secondAttribute="centerX" id="AjB-2L-ZfQ"/>
                             <constraint firstItem="O2B-9R-6C4" firstAttribute="centerX" secondItem="WDm-AB-fQT" secondAttribute="centerX" id="Fa5-oK-xSW"/>
                             <constraint firstItem="NNj-B3-hpW" firstAttribute="leading" secondItem="WDm-AB-fQT" secondAttribute="leading" constant="20" id="Fto-6T-oTJ"/>
                             <constraint firstItem="gmf-ZL-OBS" firstAttribute="centerY" secondItem="WDm-AB-fQT" secondAttribute="centerY" constant="-210" id="LA5-mj-RDK"/>
+                            <constraint firstItem="f3k-ai-2bE" firstAttribute="leading" secondItem="fOt-2t-qbI" secondAttribute="leading" constant="174" id="VQh-KK-mQ9"/>
                             <constraint firstItem="O2B-9R-6C4" firstAttribute="centerY" secondItem="WDm-AB-fQT" secondAttribute="centerY" constant="-250" id="VmF-ff-vwn"/>
                             <constraint firstItem="NNj-B3-hpW" firstAttribute="top" secondItem="O2B-9R-6C4" secondAttribute="top" constant="86.5" id="W7T-tj-e5y"/>
                             <constraint firstItem="fOt-2t-qbI" firstAttribute="trailing" secondItem="NNj-B3-hpW" secondAttribute="trailing" constant="20" id="dHo-Yz-MSB"/>
+                            <constraint firstItem="O2B-9R-6C4" firstAttribute="top" secondItem="MHE-ik-B5H" secondAttribute="bottom" constant="14.666666666666657" id="eHx-ou-W34"/>
+                            <constraint firstItem="fOt-2t-qbI" firstAttribute="trailing" secondItem="f3k-ai-2bE" secondAttribute="trailing" constant="174" id="lH7-hz-LCV"/>
+                            <constraint firstItem="fOt-2t-qbI" firstAttribute="trailing" secondItem="MHE-ik-B5H" secondAttribute="trailing" constant="168" id="wBI-cT-NCn"/>
+                            <constraint firstItem="MHE-ik-B5H" firstAttribute="top" secondItem="f3k-ai-2bE" secondAttribute="bottom" constant="8" id="wnz-Rt-bFO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fOt-2t-qbI"/>
                     </view>
                     <navigationItem key="navigationItem" id="Fs3-37-P3W"/>
+                    <connections>
+                        <outlet property="textLO" destination="NNj-B3-hpW" id="dxz-fm-WgU"/>
+                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yRT-ef-d7t" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2571" y="-734"/>
         </scene>
@@ -767,8 +799,8 @@
         <image name="logo.png" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="znE-dJ-Gli"/>
-        <segue reference="V4N-eY-zSf"/>
+        <segue reference="mRj-sh-2Ue"/>
+        <segue reference="jqh-sh-vIM"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.71764713525772095" green="0.71764713525772095" blue="0.71764713525772095" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>
