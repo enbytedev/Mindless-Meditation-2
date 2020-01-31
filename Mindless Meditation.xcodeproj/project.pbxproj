@@ -12,10 +12,28 @@
 		4101038C21248B5C0086143C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4101038A21248B5C0086143C /* Main.storyboard */; };
 		4101039121248B5D0086143C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4101038F21248B5D0086143C /* LaunchScreen.storyboard */; };
 		410103BA2124B67B0086143C /* mmlogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 410103B82124B4F80086143C /* mmlogo.jpg */; };
-		411D244323DBA92000A26176 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 411D244223DBA92000A26176 /* AppIcon.appiconset */; };
 		4174212D233FAAF100759F4F /* text in Resources */ = {isa = PBXBuildFile; fileRef = 4174212C233FAAF100759F4F /* text */; };
 		41C532CF23DEC4B7004D5954 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C532CE23DEC4B7004D5954 /* Images.xcassets */; };
 		41DD95CC2124CE9700524E4F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DD95CB2124CE9700524E4F /* SecondViewController.swift */; };
+		41E7A2A023E3DEE7002154CE /* Brain.H03.2kiPhoneSpootlight7_40pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E7A28D23E3DEE7002154CE /* Brain.H03.2kiPhoneSpootlight7_40pt@2x.png */; };
+		41E7A2A123E3DEE7002154CE /* Brain.H03.2kiPadApp_76pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E7A28E23E3DEE7002154CE /* Brain.H03.2kiPadApp_76pt@2x.png */; };
+		41E7A2A223E3DEE7002154CE /* Brain.H03.2kiPadSpootlight5_29pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E7A28F23E3DEE7002154CE /* Brain.H03.2kiPadSpootlight5_29pt@2x.png */; };
+		41E7A2A323E3DEE7002154CE /* Brain.H03.2kiPhoneSpootlight7_40pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E7A29023E3DEE7002154CE /* Brain.H03.2kiPhoneSpootlight7_40pt@3x.png */; };
+		41E7A2A423E3DEE7002154CE /* Brain.H03.2kiPadSpootlight5_29pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E7A29123E3DEE7002154CE /* Brain.H03.2kiPadSpootlight5_29pt.png */; };
+		41E7A2A523E3DEE7002154CE /* Brain.H03.2kiPadSpootlight7_40pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E7A29223E3DEE7002154CE /* Brain.H03.2kiPadSpootlight7_40pt.png */; };
+		41E7A2A623E3DEE7002154CE /* Brain.H03.2kiPhoneSpootlight5_29pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E7A29323E3DEE7002154CE /* Brain.H03.2kiPhoneSpootlight5_29pt@2x.png */; };
+		41E7A2A723E3DEE7002154CE /* Brain.H03.2kiPhoneNotification_20pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E7A29423E3DEE7002154CE /* Brain.H03.2kiPhoneNotification_20pt@3x.png */; };
+		41E7A2A823E3DEE7002154CE /* Brain.H03.2kiPadProApp_83.5pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E7A29523E3DEE7002154CE /* Brain.H03.2kiPadProApp_83.5pt@2x.png */; };
+		41E7A2A923E3DEE7002154CE /* Brain.H03.2kiPhoneNotification_20pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E7A29623E3DEE7002154CE /* Brain.H03.2kiPhoneNotification_20pt@2x.png */; };
+		41E7A2AA23E3DEE7002154CE /* Brain.H03.2kiPhoneSpootlight5_29pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E7A29723E3DEE7002154CE /* Brain.H03.2kiPhoneSpootlight5_29pt@3x.png */; };
+		41E7A2AB23E3DEE7002154CE /* Brain.H03.2kiPadSpootlight7_40pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E7A29823E3DEE7002154CE /* Brain.H03.2kiPadSpootlight7_40pt@2x.png */; };
+		41E7A2AC23E3DEE7002154CE /* Brain.H03.2kiPadApp_76pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E7A29923E3DEE7002154CE /* Brain.H03.2kiPadApp_76pt.png */; };
+		41E7A2AD23E3DEE7002154CE /* Brain.H03.2kiPhoneApp_60pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E7A29A23E3DEE7002154CE /* Brain.H03.2kiPhoneApp_60pt@3x.png */; };
+		41E7A2AE23E3DEE7002154CE /* Brain.H03.2kstore_1024pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E7A29B23E3DEE7002154CE /* Brain.H03.2kstore_1024pt.png */; };
+		41E7A2AF23E3DEE7002154CE /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 41E7A29C23E3DEE7002154CE /* Contents.json */; };
+		41E7A2B023E3DEE7002154CE /* Brain.H03.2kiPhoneApp_60pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E7A29D23E3DEE7002154CE /* Brain.H03.2kiPhoneApp_60pt@2x.png */; };
+		41E7A2B123E3DEE7002154CE /* Brain.H03.2kiPadNotifications_20pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E7A29E23E3DEE7002154CE /* Brain.H03.2kiPadNotifications_20pt.png */; };
+		41E7A2B223E3DEE7002154CE /* Brain.H03.2kiPadNotifications_20pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41E7A29F23E3DEE7002154CE /* Brain.H03.2kiPadNotifications_20pt@2x.png */; };
 		41ECBFC9234034E1004D67E6 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 41ECBFC8234034E1004D67E6 /* logo.png */; };
 		41EDB6D223DC9505001D2467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41EDB6D123DC9505001D2467 /* Assets.xcassets */; };
 		41EDB6D923DC9505001D2467 /* mmwatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 41EDB6D823DC9505001D2467 /* mmwatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -94,11 +112,29 @@
 		4101039721248B5D0086143C /* Mindless MeditationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mindless MeditationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		410103A221248B5D0086143C /* Mindless MeditationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mindless MeditationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		410103B82124B4F80086143C /* mmlogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mmlogo.jpg; sourceTree = "<group>"; };
-		411D244223DBA92000A26176 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = "../Downloads/Mindless-Meditation-2-master/MindlessMed2/AppIcon.appiconset"; sourceTree = "<group>"; };
 		413988502125255D005831F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		4174212C233FAAF100759F4F /* text */ = {isa = PBXFileReference; lastKnownFileType = folder; path = text; sourceTree = "<group>"; };
 		41C532CE23DEC4B7004D5954 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		41DD95CB2124CE9700524E4F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		41E7A28D23E3DEE7002154CE /* Brain.H03.2kiPhoneSpootlight7_40pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brain.H03.2kiPhoneSpootlight7_40pt@2x.png"; sourceTree = "<group>"; };
+		41E7A28E23E3DEE7002154CE /* Brain.H03.2kiPadApp_76pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brain.H03.2kiPadApp_76pt@2x.png"; sourceTree = "<group>"; };
+		41E7A28F23E3DEE7002154CE /* Brain.H03.2kiPadSpootlight5_29pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brain.H03.2kiPadSpootlight5_29pt@2x.png"; sourceTree = "<group>"; };
+		41E7A29023E3DEE7002154CE /* Brain.H03.2kiPhoneSpootlight7_40pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brain.H03.2kiPhoneSpootlight7_40pt@3x.png"; sourceTree = "<group>"; };
+		41E7A29123E3DEE7002154CE /* Brain.H03.2kiPadSpootlight5_29pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brain.H03.2kiPadSpootlight5_29pt.png; sourceTree = "<group>"; };
+		41E7A29223E3DEE7002154CE /* Brain.H03.2kiPadSpootlight7_40pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brain.H03.2kiPadSpootlight7_40pt.png; sourceTree = "<group>"; };
+		41E7A29323E3DEE7002154CE /* Brain.H03.2kiPhoneSpootlight5_29pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brain.H03.2kiPhoneSpootlight5_29pt@2x.png"; sourceTree = "<group>"; };
+		41E7A29423E3DEE7002154CE /* Brain.H03.2kiPhoneNotification_20pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brain.H03.2kiPhoneNotification_20pt@3x.png"; sourceTree = "<group>"; };
+		41E7A29523E3DEE7002154CE /* Brain.H03.2kiPadProApp_83.5pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brain.H03.2kiPadProApp_83.5pt@2x.png"; sourceTree = "<group>"; };
+		41E7A29623E3DEE7002154CE /* Brain.H03.2kiPhoneNotification_20pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brain.H03.2kiPhoneNotification_20pt@2x.png"; sourceTree = "<group>"; };
+		41E7A29723E3DEE7002154CE /* Brain.H03.2kiPhoneSpootlight5_29pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brain.H03.2kiPhoneSpootlight5_29pt@3x.png"; sourceTree = "<group>"; };
+		41E7A29823E3DEE7002154CE /* Brain.H03.2kiPadSpootlight7_40pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brain.H03.2kiPadSpootlight7_40pt@2x.png"; sourceTree = "<group>"; };
+		41E7A29923E3DEE7002154CE /* Brain.H03.2kiPadApp_76pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brain.H03.2kiPadApp_76pt.png; sourceTree = "<group>"; };
+		41E7A29A23E3DEE7002154CE /* Brain.H03.2kiPhoneApp_60pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brain.H03.2kiPhoneApp_60pt@3x.png"; sourceTree = "<group>"; };
+		41E7A29B23E3DEE7002154CE /* Brain.H03.2kstore_1024pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brain.H03.2kstore_1024pt.png; sourceTree = "<group>"; };
+		41E7A29C23E3DEE7002154CE /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		41E7A29D23E3DEE7002154CE /* Brain.H03.2kiPhoneApp_60pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brain.H03.2kiPhoneApp_60pt@2x.png"; sourceTree = "<group>"; };
+		41E7A29E23E3DEE7002154CE /* Brain.H03.2kiPadNotifications_20pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brain.H03.2kiPadNotifications_20pt.png; sourceTree = "<group>"; };
+		41E7A29F23E3DEE7002154CE /* Brain.H03.2kiPadNotifications_20pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brain.H03.2kiPadNotifications_20pt@2x.png"; sourceTree = "<group>"; };
 		41ECBFC8234034E1004D67E6 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		41EDB6CC23DC9504001D2467 /* mmwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mmwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41EDB6D123DC9505001D2467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -148,7 +184,7 @@
 		4101037A21248B5C0086143C = {
 			isa = PBXGroup;
 			children = (
-				411D244223DBA92000A26176 /* AppIcon.appiconset */,
+				41E7A28C23E3DEE7002154CE /* AppIcon.appiconset */,
 				4101038521248B5C0086143C /* MindlessMed2 */,
 				41EDB6CD23DC9504001D2467 /* mmwatch */,
 				41EDB6DC23DC9505001D2467 /* mmwatch Extension */,
@@ -183,6 +219,32 @@
 				4101039221248B5D0086143C /* Info.plist */,
 			);
 			path = MindlessMed2;
+			sourceTree = "<group>";
+		};
+		41E7A28C23E3DEE7002154CE /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				41E7A28D23E3DEE7002154CE /* Brain.H03.2kiPhoneSpootlight7_40pt@2x.png */,
+				41E7A28E23E3DEE7002154CE /* Brain.H03.2kiPadApp_76pt@2x.png */,
+				41E7A28F23E3DEE7002154CE /* Brain.H03.2kiPadSpootlight5_29pt@2x.png */,
+				41E7A29023E3DEE7002154CE /* Brain.H03.2kiPhoneSpootlight7_40pt@3x.png */,
+				41E7A29123E3DEE7002154CE /* Brain.H03.2kiPadSpootlight5_29pt.png */,
+				41E7A29223E3DEE7002154CE /* Brain.H03.2kiPadSpootlight7_40pt.png */,
+				41E7A29323E3DEE7002154CE /* Brain.H03.2kiPhoneSpootlight5_29pt@2x.png */,
+				41E7A29423E3DEE7002154CE /* Brain.H03.2kiPhoneNotification_20pt@3x.png */,
+				41E7A29523E3DEE7002154CE /* Brain.H03.2kiPadProApp_83.5pt@2x.png */,
+				41E7A29623E3DEE7002154CE /* Brain.H03.2kiPhoneNotification_20pt@2x.png */,
+				41E7A29723E3DEE7002154CE /* Brain.H03.2kiPhoneSpootlight5_29pt@3x.png */,
+				41E7A29823E3DEE7002154CE /* Brain.H03.2kiPadSpootlight7_40pt@2x.png */,
+				41E7A29923E3DEE7002154CE /* Brain.H03.2kiPadApp_76pt.png */,
+				41E7A29A23E3DEE7002154CE /* Brain.H03.2kiPhoneApp_60pt@3x.png */,
+				41E7A29B23E3DEE7002154CE /* Brain.H03.2kstore_1024pt.png */,
+				41E7A29C23E3DEE7002154CE /* Contents.json */,
+				41E7A29D23E3DEE7002154CE /* Brain.H03.2kiPhoneApp_60pt@2x.png */,
+				41E7A29E23E3DEE7002154CE /* Brain.H03.2kiPadNotifications_20pt.png */,
+				41E7A29F23E3DEE7002154CE /* Brain.H03.2kiPadNotifications_20pt@2x.png */,
+			);
+			path = AppIcon.appiconset;
 			sourceTree = "<group>";
 		};
 		41EDB6CD23DC9504001D2467 /* mmwatch */ = {
@@ -364,13 +426,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41E7A2B223E3DEE7002154CE /* Brain.H03.2kiPadNotifications_20pt@2x.png in Resources */,
+				41E7A2A023E3DEE7002154CE /* Brain.H03.2kiPhoneSpootlight7_40pt@2x.png in Resources */,
+				41E7A2A223E3DEE7002154CE /* Brain.H03.2kiPadSpootlight5_29pt@2x.png in Resources */,
+				41E7A2A423E3DEE7002154CE /* Brain.H03.2kiPadSpootlight5_29pt.png in Resources */,
+				41E7A2A823E3DEE7002154CE /* Brain.H03.2kiPadProApp_83.5pt@2x.png in Resources */,
+				41E7A2AC23E3DEE7002154CE /* Brain.H03.2kiPadApp_76pt.png in Resources */,
 				410103BA2124B67B0086143C /* mmlogo.jpg in Resources */,
+				41E7A2A323E3DEE7002154CE /* Brain.H03.2kiPhoneSpootlight7_40pt@3x.png in Resources */,
+				41E7A2A923E3DEE7002154CE /* Brain.H03.2kiPhoneNotification_20pt@2x.png in Resources */,
 				41C532CF23DEC4B7004D5954 /* Images.xcassets in Resources */,
+				41E7A2AF23E3DEE7002154CE /* Contents.json in Resources */,
+				41E7A2B023E3DEE7002154CE /* Brain.H03.2kiPhoneApp_60pt@2x.png in Resources */,
+				41E7A2AE23E3DEE7002154CE /* Brain.H03.2kstore_1024pt.png in Resources */,
+				41E7A2A123E3DEE7002154CE /* Brain.H03.2kiPadApp_76pt@2x.png in Resources */,
+				41E7A2A723E3DEE7002154CE /* Brain.H03.2kiPhoneNotification_20pt@3x.png in Resources */,
 				4174212D233FAAF100759F4F /* text in Resources */,
+				41E7A2AD23E3DEE7002154CE /* Brain.H03.2kiPhoneApp_60pt@3x.png in Resources */,
+				41E7A2A523E3DEE7002154CE /* Brain.H03.2kiPadSpootlight7_40pt.png in Resources */,
 				41ECBFC9234034E1004D67E6 /* logo.png in Resources */,
+				41E7A2A623E3DEE7002154CE /* Brain.H03.2kiPhoneSpootlight5_29pt@2x.png in Resources */,
 				4101039121248B5D0086143C /* LaunchScreen.storyboard in Resources */,
-				411D244323DBA92000A26176 /* AppIcon.appiconset in Resources */,
 				4101038C21248B5C0086143C /* Main.storyboard in Resources */,
+				41E7A2AA23E3DEE7002154CE /* Brain.H03.2kiPhoneSpootlight5_29pt@3x.png in Resources */,
+				41E7A2B123E3DEE7002154CE /* Brain.H03.2kiPadNotifications_20pt.png in Resources */,
+				41E7A2AB23E3DEE7002154CE /* Brain.H03.2kiPadSpootlight7_40pt@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,7 +690,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = 3ZSHX8FR4Y;
 				INFOPLIST_FILE = MindlessMed2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
@@ -631,7 +711,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = 3ZSHX8FR4Y;
 				INFOPLIST_FILE = MindlessMed2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
@@ -787,7 +867,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = 3ZSHX8FR4Y;
 				IBSC_MODULE = mmwatch_Extension;
 				INFOPLIST_FILE = mmwatch/Info.plist;
@@ -808,7 +888,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = 3ZSHX8FR4Y;
 				IBSC_MODULE = mmwatch_Extension;
 				INFOPLIST_FILE = mmwatch/Info.plist;
